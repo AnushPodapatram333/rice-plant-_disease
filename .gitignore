@@ -1,0 +1,11 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Model weights (large binary files)
+rice_disease_app/model/*.h5
