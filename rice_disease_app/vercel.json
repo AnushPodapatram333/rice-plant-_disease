@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "rice_disease_app/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "rice_disease_app/app.py"
+    }
+  ]
+}
